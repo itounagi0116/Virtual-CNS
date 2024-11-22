@@ -1,7 +1,7 @@
 # Virtual-CNS  
 VRChatでの通信、航法、監視システム
 
-[![GitHub license](https://img.shields.io/github/license/SeaeeesSan/SimpleFolderIcon)](https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE)
+![ライセンスバッジ](https://img.shields.io/badge/ライセンス-MIT-007EC6)
 
 ---
 
