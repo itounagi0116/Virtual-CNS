@@ -3,7 +3,7 @@
   "displayName": "Virtual Flight Data Bus",
   "version": "6.1.0",
   "private": true,
-  "description": "Integrated Common Data Bus for VRChat Aviation",
+  "description": "An integrated common data bus for VRChat aviation.",
   "homepage": "https://github.com/VirtualAviationJapan/Virtual-CNS#readme",
   "bugs": {
     "url": "https://github.com/VirtualAviationJapan/Virtual-CNS/issues"
@@ -12,21 +12,25 @@
     "type": "git",
     "url": "git+https://github.com/VirtualAviationJapan/Virtual-CNS.git"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": {
-    "name": "esnya",
-    "url": "https://github.com/VirtualAviationJapan"
+    "name": "esnya"
   },
+  "unity": "2022.3",
   "dependencies": {
     "com.nekometer.esnya.udon-radio-communications": "5.0.0",
     "com.unity.textmeshpro": "2.1.6",
     "jp.virtualaviation.virtual-cns": "6.1.0",
     "sh.orels.udontoolkit": "1.1.2"
   },
-  "unity": "2019.4",
-  "url": "https://github.com/VirtualAviationJapan/Virtual-CNS.git?path=/Packages/jp.virtualaviation.virtual-flight-data-bus",
   "vpmDependencies": {
     "com.vrchat.worlds": "3.1.1",
-    "com.vrchat.udonsharp": "1.1.7"
+    "com.vrchat.udonsharp": "1.1.7",
+    "com.nekometer.esnya.udon-radio-communications": "5.0.0",
+    "jp.virtualaviation.virtual-cns": "6.1.0",
+    "sh.orels.udontoolkit": "1.1.2"
+  },
+  "legacyFolders": {
+    "Assets\\VirtualFlightDataBus": ""
   }
 }
