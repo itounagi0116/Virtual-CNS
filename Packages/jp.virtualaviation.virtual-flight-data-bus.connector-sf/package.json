@@ -3,7 +3,7 @@
   "displayName": "Virtual Flight Data Bus Connector for SaccFlightAndVehicles",
   "version": "6.1.0",
   "private": true,
-  "description": "An integrated common data bus for VRChat aviation with support for SaccFlightAndVehicles.",
+  "description": "Integrated Common Data Bus for VRChat Aviation",
   "homepage": "https://github.com/VirtualAviationJapan/Virtual-CNS#readme",
   "bugs": {
     "url": "https://github.com/VirtualAviationJapan/Virtual-CNS/issues"
@@ -12,20 +12,24 @@
     "type": "git",
     "url": "git+https://github.com/VirtualAviationJapan/Virtual-CNS.git"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "author": {
-    "name": "esnya"
+    "name": "esnya",
+    "url": "https://github.com/VirtualAviationJapan"
   },
-  "unity": "2022.3",
   "dependencies": {
     "jp.virtualaviation.virtual-flight-data-bus": "6.1.0"
   },
+  "unity": "2022.3",
+  "url": "https://github.com/VirtualAviationJapan/Virtual-CNS.git?path=/Packages/jp.virtualaviation.virtual-flight-data-bus.connector-sf",
   "vpmDependencies": {
-    "com.vrchat.worlds": "3.1.1",
-    "com.vrchat.udonsharp": "1.1.7",
-    "jp.virtualaviation.virtual-flight-data-bus": "6.1.0"
+    "com.vrchat.worlds": "3.1.1"
   },
   "legacyFolders": {
-    "Assets\\VirtualFlightDataBus\\ConnectorSF": ""
-  }
+    "Assets\\UdonSharp": "b031f928e5c709b4887f6513084aaa51",
+    "Assets\\Gizmos\\UdonSharp": "6e940dfc89ce4ca41b651e05bc21be6b"
+  },
+  "legacyPackages": [
+    "com.vrchat.udonsharp"
+  ]
 }

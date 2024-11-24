@@ -15,7 +15,6 @@
   "author": {
     "name": "esnya"
   },
-  "type": "library",
   "scripts": {
     "postversion": "foreach Packages/*/ \"npm --prefix #{path} version ${npm_package_version}\""
   },
@@ -29,7 +28,6 @@
     "semantic-release-gitmoji": "^1.6.3"
   },
   "vpmDependencies": {
-    "com.vrchat.worlds": "3.1.1",
-    "com.vrchat.udonsharp": "1.1.7"
+    "com.vrchat.worlds": "3.1.1"
   }
 }

@@ -1,25 +1,14 @@
-# Virtual-CNS  
-VRChatでの通信、航法、監視システム
+# Virtual-CNS
 
 ![ライセンスバッジ](https://img.shields.io/badge/ライセンス-MIT-007EC6)
 
----
+[日本語](README_JP.md)
 
-## 必要要件
-- [VRChat Creator Companion(VCC)](https://github.com/vrchat-community/creator-companion) 経由でインストールする [**UdonSharp 1.x**](https://github.com/vrchat-community/UdonSharp)  
-- [UdonToolkit](https://github.com/orels1/UdonToolkit/)  
+Communication, Navigation, Surveillance on VRChat
 
----
-
-## はじめに  
-1. **VRChat Creator Companion** を使用して、UdonSharpを含むVRChatワールド用のUnityプロジェクトを作成します。  
-2. Unityプロジェクトを開きます。  
-3. メニューの「Window」→「Package Manager」を開きます。  
-4. 「+」ボタンをクリックし、`Add package from git URL` を選択します。  
-5. 以下のURLを入力し、「Add」ボタンをクリックします：  
-   - 通常版: `git+https://github.com/VirtualAviationJapan/Virtual-CNS.git?path=/Packages/jp.virtualaviation.virtual-cns`  
-   - アルファ版: `git+https://github.com/VirtualAviationJapan/Virtual-CNS.git?path=/Packages/jp.virtualaviation.virtual-cns#alpha`  
-
----
-
-[補足](https://github.com/itounagi0116/Virtual-CNS/blob/master/%E8%A3%9C%E8%B6%B3.md)
+## Getting Started
+1. Create a Unity Project for VRChat World with UdonSharp using VRChat Creator Compoanion
+2. Open the Unity Project.
+3. Open the Package Manager window from Window menu.
+4. Click + button and select `Add package from git URL`.
+5. Enter `git+https://github.com/VirtualAviationJapan/Virtual-CNS.git?pth=/Packages/jp.virtualaviation.virtual-cns` and click Add button (Enter `git+https://github.com/VirtualAviationJapan/Virtual-CNS.git?pth=/Packages/jp.virtualaviation.virtual-cns#alpha` to use alpha releases)
